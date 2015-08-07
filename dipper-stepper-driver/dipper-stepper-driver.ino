@@ -12,7 +12,8 @@ const int stepPinMThree = 10;
 int xpos = 0, ypos = 0, zpos = 0;
 int motorSpeed = 1000;
 const int stepsPerRev = 200;
-const int distPerRev = 20;
+const int distPerRevF20 = 20;
+const int distPerRevF8 = 8;
 
 void setup() {
   //Setup stepper motors 1, 2, 3
